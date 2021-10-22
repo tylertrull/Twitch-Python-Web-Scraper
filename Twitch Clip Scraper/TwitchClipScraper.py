@@ -112,8 +112,8 @@ def uploadtoYoutube():
     driver = webdriver.Chrome(chrome_options = chrome_options)
     gamesFile = open('C:/Users/Tyler/Documents/Twitch Clip Scraper/Games.txt')
     driver.implicitly_wait(10)
-    email = "TwitchClipBot733733@gmail.com"
-    password = "Thisisthetwitchclipbotpassword12"
+    email = "YOUTUBE LOGIN E-MAIL INSERTED HERE"
+    password = "PASSWORD INSERTED HERE"
     driver.get("https://www.youtube.com")
     signInButton = driver.find_element_by_xpath('//*[@id="buttons"]/ytd-button-renderer')
     signInButton.click()
